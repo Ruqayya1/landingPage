@@ -1,0 +1,30 @@
+body{
+    border: 5px solid black;
+   width:80%;
+   margin:auto;
+   background-image: url("https://images.pexels.com/photos/830891/pexels-photo-830891.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")
+ 
+}
+
+h2{
+    text-align:center;
+    line-height:0.3;
+}
+.cp {
+   color:rgb(1, 1, 37);
+   background-color:lightslategray;
+   text-decoration:underline;
+   font-size:20px;
+   
+
+}
+.c{
+    padding:10px;
+}
+.q{
+    line-height: 25px;
+}
+
+.l{
+    float:right;
+}

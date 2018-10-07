@@ -1,0 +1,36 @@
+body{
+    background-color:purple;
+        margin:0;
+    color:white;
+    font-family:'Dosis', sans-serif;
+}
+.container{
+   
+    background-image: url("culture.jpg");
+    height: 100vh;
+    width:100%;
+    text-align:center;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+
+
+}
+
+  .showcase .title{
+    left: 0;
+    line-height: 200px;
+    margin: auto;
+    margin-top: -100px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+
+}
+.parts{
+display:grid;
+grid-template-columns: repeat(2, 1fr);
+grid-gap:20px;
+align-items: space-around;
+}
+

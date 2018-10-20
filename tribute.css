@@ -1,0 +1,97 @@
+
+
+h1{
+    text-align:center;
+    text-decoration:underline;
+    font-family: 'Lobster', cursive;
+}
+h3{
+    text-align:center;
+    line-height:0.3px;
+    font-family: 'Pompiere', cursive;
+}
+#main{
+    border:5px solid grey;
+     padding:20px;
+     background-color:lightgoldenrodyellow;
+     width: 97%;
+     margin:auto;
+    }
+#img-caption, #tribute-info{
+    font-family: 'Pompiere', cursive;
+    font-size:20px;
+}
+#tribute-link{
+    font-family: 'Seaweed Script', cursive;
+}
+#image{
+    display:block;
+    margin:auto;
+    width:90%;
+}
+/* #pic{
+    line-height:0;
+    -webkit-column-count:2;
+    -webkit-column-gap:0px;
+    -moz-column-count: 2;
+    -moz-column-gap: 0px;
+    column-count:2;
+    column-gap: 0px;
+
+   
+}
+#pic img{
+    width:70% !important;
+  
+}
+@media(max-width:70%)
+{
+    #pic{
+        -moz-column-count: 2;
+        -webkit-column-count:2;
+        column-count:2;
+    }
+} */
+
+#pic {
+    display:flex;
+    flex: wrap;
+    flex-direction:column;
+    justify-content: center;
+
+
+}
+.p{
+    flex-grow:4;
+}
+
+/* @media only screen and (max-width:400px)
+{
+    #main{
+        font-size: 5px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size:20px;
+    }
+    a{
+        font-size: 20px;
+    }
+} */
+
+
+@media only screen and (max-width:400px)
+{
+    #main{
+        width:62%;
+        font-size:15px;
+    }
+}
+/* @media only screen and (min-width:700px)
+{
+    #main{
+        width:33%;
+    }
+} */

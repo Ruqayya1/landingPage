@@ -9,13 +9,14 @@
 </head>
 <body>
     <h1 id ="title"> Survey Form</h1>
-    <p id ="description"> This form is intended to keep track of our valued customers. Please make sure you complete this form correctly. Be assured that the information you provide will be kept confidential. Thank you for taking out time to fill the survey. 
+    <p id ="description"> This form is intended to keep track of our valued customers. Please make sure you complete this form correctly. Be assured that the information you provide will be kept confidential.<br> Thank you for taking out time to fill the survey. <br>
+        
 
     </p>
     <form id ="survey-form">
         <p id ="name"> Name: 
-            <sup><strong><abbr class ="ab" >*</abbr></strong></sup>
-            <input  type ="text" placeholder="Enter your name" required> 
+            <span><sup>*</sup></span>
+           <span><input  type ="text" placeholder="Enter your name" required> </span>
         </p>
         <p id = "email"> 
             Email:<sup><strong><abbr class ="ab" >*</abbr></strong></sup> <input type ="text" placeholder ="Enter your email" required> 
@@ -24,6 +25,33 @@
         <p id ="number"> How old are you:
                 <input  type ="text" placeholder="Enter age"> 
         </p>
+        <p> Country:
+        <select id ="dropdown"> 
+            <option value = "Saudi Arabia">Saudi Arabia</option>
+            <option value = "Mexico">Mexico</option>
+            <option value = "India">India</option>
+            <option value = "Australia">Australia</option>
+            <option value = "Russia">Russia</option>
+        </select>
+        </p>
+
+        <p>
+            Gender:
+            <label for ="Female">
+                <input id ="Female" type ="radio" name= "gender">Female</label>
+                <label for ="Male">
+                <input id ="Male" type ="radio" name= "gender">Male</label>
+                <label for ="Other">
+                <input id ="Other" type ="radio" name= "Other">Other</label>
+                
+            
+        </p>
+        <p>
+            For Additional information: <br>
+            <textarea rows="8" cols ="50"></textarea>
+        </p>
+        <br>
+        <button type ="submit">Submit</button>
 
     </form>
     

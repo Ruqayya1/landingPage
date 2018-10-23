@@ -3,16 +3,17 @@ body{
     width: 80%;
     text-align:center;
     margin:auto;
+    padding:20px;
 }
 
 h1{
     text-align:center;
 }
 
-
-
 .ab{
     color:red;
 }
 
-
+span{
+    word-spacing: 50px;
+}

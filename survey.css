@@ -5,15 +5,25 @@ body{
     margin:auto;
     padding:20px;
 }
+#description{
+    color: blue;
+}
 
 h1{
     text-align:center;
+    color: red;
 }
 
 .ab{
     color:red;
 }
 
-span{
-    word-spacing: 50px;
+#name :first-child{
+    margin-right:30px;
+}
+#email :first-child{
+    margin-right:30px;
+}
+#number :first-child{
+    margin-left:15px;
 }
